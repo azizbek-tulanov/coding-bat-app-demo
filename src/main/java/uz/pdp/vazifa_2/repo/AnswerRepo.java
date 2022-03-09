@@ -1,0 +1,9 @@
+package uz.pdp.vazifa_2.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import uz.pdp.vazifa_2.entity.Answer;
+
+@Repository
+public interface AnswerRepo extends JpaRepository<Answer,Integer> {
+}
